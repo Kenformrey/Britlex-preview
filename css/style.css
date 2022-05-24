@@ -686,6 +686,7 @@ textarea.input {
   position: fixed;
   top: -200%;
   background: #263238;
+  color: red;
   border-bottom: 1px solid #8f95a5;
 }
 
@@ -694,10 +695,6 @@ textarea.input {
   -o-transition: top 0.5s ease 0s;
   transition: top 0.5s ease 0s;
   top: 0;
-}
-
-.header._header-show .button__transparent {
-  border: 1px solid #fff;
 }
 
 .header._header-show .header__logo a {
@@ -1445,6 +1442,10 @@ textarea.input {
     -ms-grid-columns: (1fr)[12];
     grid-template-columns: repeat(12, 1fr);
     justify-items: end;
+  }
+
+  .header._header-show .button__transparent {
+    border: 1px solid #fff;
   }
 
   .header._header-show .menu__link {
